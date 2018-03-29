@@ -1,0 +1,30 @@
+﻿struc pixel (coord xy, rgb)
+struc image (tab pixel)
+struc triangle (ptsA, ptsB, ptsC )
+
+
+D'après les propriétés précédentes, on peut remarquer qu'avec deux triangles ABD et BCD donnés (voir figure), la somme des angles α et γ est inférieure ou égale à 180° si et seulement si ces triangles respectent la condition de Delaunay.
+
+On construit ainsi un algorithme direct : on génère d'abord une triangulation quelconque, puis on bascule les arêtes jusqu'à ce que tous les triangles soient de Delaunay.
+|||||| => recursif ou while (test_if_delaunnay == true) |||||
+Cette méthode peut nécessiter O(n2) basculements d'arêtes et ne peut se généraliser en dimension 3 ou supérieure2.
+
+
+
+IMAGE / PIXEL (Coline)
+
+TRIANGULATION (Anaïs)
+
+GESTION D'EVENEMENTS
+
+TRANSFORMATION COULEUR / PIXEL (application formule)
+
+
+
+
+
+
+
+
+
+
