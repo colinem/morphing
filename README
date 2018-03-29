@@ -1,4 +1,18 @@
-﻿struc pixel (coord xy, rgb)
+﻿########  P L A N   D E   T R A V A I L ########
+
+TO DO LIST
+- créer les .h (header)
+- faire un malloc tab_taille_8 puis faire malloc tab_taille_16 (tester malloc pour agrandir taille tableau)
+- réapprendre à definitr une structure
+
+DIFFERENTES PARTIES
+- image / pixels (Coline)
+- triangulation / points (Anaïs) : créer une matrice de point avec des triangles qui respecte la triangulation de delaunnay
+- gestion d'évènements
+- transparence / fusion couleur (pixel) --> application formules
+
+STRUCTURES qui vont être utilisées
+struc pixel (coord xy, rgb)
 struc image (tab pixel)
 struc triangle (ptsA, ptsB, ptsC )
 
@@ -11,20 +25,22 @@ Cette méthode peut nécessiter O(n2) basculements d'arêtes et ne peut se gén�
 
 
 
-IMAGE / PIXEL (Coline)
 
-TRIANGULATION (Anaïs)
+######   N O T E S   A N A I S   ######
+## étapes :
+- tracer des points
+- tracer des droites
+- tracer des triangles
+- calculer des triangles
+- ajouter des pointes
 
-GESTION D'EVENEMENTS
+## méthodes :
+- créate point
+- draw_between(ptA, ptB)
+- 
 
-TRANSFORMATION COULEUR / PIXEL (application formule)
-
-
-
-
-
-
-
-
-
-
+## object / entités
+point 
+triangle (pta, ptb, ptc)
+tab de point [pt1, pt2, pt3...]
+tab de triangle
