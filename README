@@ -1,15 +1,19 @@
 ﻿########  P L A N   D E   T R A V A I L ########
 
-TO DO LIST
+NE PAS OUBLIER
 - créer les .h (header)
 - faire un malloc tab_taille_8 puis faire malloc tab_taille_16 (tester malloc pour agrandir taille tableau)
 - réapprendre à definitr une structure
+- inclure la notion de temps
+
 
 DIFFERENTES PARTIES
 - image / pixels (Coline)
 - triangulation / points (Anaïs) : créer une matrice de point avec des triangles qui respecte la triangulation de delaunnay
 - gestion d'évènements
 - transparence / fusion couleur (pixel) --> application formules
+- transition progressive (vitesse / nombre de frames)
+
 
 STRUCTURES qui vont être utilisées
 struc pixel (coord xy, rgb)
